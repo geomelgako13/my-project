@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+/*--------- Menu bar-----------*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition:font-color 2s;
+}
+a:hover{
+    color: red;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*--------------Middle---------------*/
+/*---------------- Footer --------------*/
+.footer{
+    background-color: white;
+    margin: 10px 10px 0 0;
+    padding-bottom: 20px;
+}
+.footer-col-1{
+    padding: 15px;
+    margin: 10px;
+}
+.footer-col-1 li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-col-1 h3{
+    text-align: center;
+    color: black; 
+}
+.logo-1{
+    display: flex;
+}
+.footer-col-3 li{
+    list-style-type: none;
+}
+.footer-col-4 li{
+    list-style-type: none;
+}
+.footer-col-4 p{
+    color: rgb(165, 161, 161);
+}
+.copyright{
+    text-align: center;
+    color: rgb(165, 161, 161);
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+/*--------- Menu bar-----------*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition:font-color 2s;
+}
+a:hover{
+    color: red;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*--------- Featured -----------*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2 img{
+    width: 2000px;
+}
+.categories{
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 5px solid black;
+}
+.categories li{
+    list-style-type: none;
+}
+.col-3 img{
+    margin: auto;
+    width: 800px;
+    box-shadow: 0 0 20px 2px rgb(0,0,0,.5);
+    transition: .1s;
+}
+.col-3:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.featured h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+}
+.row h4{
+    color: red;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width:100%;
+    box-shadow: 0 0 20px 2px rgb(0,0,0,.5);
+    transition: .1s;
+    margin-bottom: 60px;
+}
+.col-4 li{
+    list-style-type: none;
+}
+.col-4 img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+.featured{
+    border-bottom: 5px solid black;
+}
+.customize-container img{
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+.customize-container h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    font-family: 'Bebas Neue', cursive;
+    margin: 10px 10px;
+}
+.customize-container{
+    border-bottom: 5px solid black;
+    list-style-type: none;
+}
+.customize-container img:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+/*---------------- Footer --------------*/
+.footer{
+    background-color: white;
+    margin: 10px 10px 0 0;
+    padding-bottom: 20px;
+}
+.footer-col-1{
+    padding: 15px;
+    margin: 10px;
+}
+.footer-col-1 li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-col-1 h3{
+    text-align: center;
+    color: black; 
+}
+.logo-1{
+    display: flex;
+}
+.footer-col-3 li{
+    list-style-type: none;
+}
+.footer-col-4 li{
+    list-style-type: none;
+}
+.footer-col-4 p{
+    color: rgb(165, 161, 161);
+}
+.copyright{
+    text-align: center;
+    color: rgb(165, 161, 161);
+}

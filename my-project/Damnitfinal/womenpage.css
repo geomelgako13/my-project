@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+/*--------- Menu bar-----------*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition:font-color 2s;
+}
+a:hover{
+    color: red;
+}
+p{
+    color: black;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*--------------Middle---------------*/
+.row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.mid_image1{
+    margin-right: 20px;
+}
+.mid_text{
+    text-align: center;
+}
+.mid_text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: red;
+}
+.row2 h3{
+    color: red;
+}
+.mid_text p{
+    color: grey;
+    margin-bottom: 50px;
+}
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 5px solid black;
+}
+.middle_container{
+    margin-bottom: 20px;
+}
+.image_sell button{
+    margin-top: 20px;
+    margin-bottom:20px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 25px;
+    transition: .5s;
+}
+.image_sell button:hover{
+    color: red;
+    transform: scale(1.1);
+    z-index: 1;
+}
+/*---------------- Footer --------------*/
+.footer{
+    background-color: white;
+    margin: 10px 10px 0 0;
+    padding-bottom: 20px;
+}
+.footer-col-1{
+    padding: 15px;
+    margin: 10px;
+}
+.footer-col-1 li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-col-1 h3{
+    text-align: center;
+    color: black; 
+}
+.logo-1{
+    display: flex;
+}
+.footer-col-3 li{
+    list-style-type: none;
+}
+.footer-col-4 li{
+    list-style-type: none;
+}
+.footer-col-4 p{
+    color: rgb(165, 161, 161);
+}
+.copyright{
+    text-align: center;
+    color: rgb(165, 161, 161);
+}
